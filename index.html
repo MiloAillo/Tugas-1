@@ -4,49 +4,66 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tugas 1 Faris Kahlil Haidar</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+       .span1 {
+        color: white;
+        background-color: black;
+        padding: 0 5px 0 5px;
+       }
+
+       .span2 {
+        font-style: italic;
+        font-weight: bold;
+        background: linear-gradient(to right, rgba(1, 217, 250, 0.475), rgba(4, 40, 220, 0.382));
+       }
+    </style>
 </head>
 <body>
-    <h1>BREAKING NEWS</h1>
+    <h1 style="color: red; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; text-align: center;">BREAKING NEWS</h1>
     <hr>
     <h3>The quick brown fox jumps over the lazy dog</h3>
-    <p>Lorem ipsum dolor sit amet, <b>consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</b> Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    <p>Lorem ipsum dolor sit amet, <b>consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</b> Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse <span class="span1">cillum dolore eu fugiat nulla pariatur.</span> Excepteur sint occaecat cupidatat non proident, <span class="span2">sunt in culpa qui officia</span> deserunt mollit anim id est laborum.</p>
 
-    Animals:
-    <ol>
-        <li>Dog</li>
-        <li>Cat</li>
-        <li>Fox</li>
-    </ol>
+    <div class="list">
+        <b>Animals:</b>
+        <ol>
+            <li>Dog</li>
+            <li>Cat</li>
+            <li>Fox</li>
+        </ol>
 
-    Food:
-    <ol type="a">
-        <li>Pizza</li>
-        <li>Burger</li>
-        <li>cheese</li>
-    </ol>
+        <b>Food:</b>
+        <ol type="a">
+            <li>Pizza</li>
+            <li>Burger</li>
+            <li>cheese</li>
+        </ol>
 
-    Color:
-    <ol type="i">
-        <li>Blue</li>
-        <li>Pink</li>
-        <li>Purple</li>
-    </ol>
+        <b>Color:</b>
+        <ol type="i">
+            <li>Blue</li>
+            <li>Pink</li>
+            <li>Purple</li>
+        </ol>
 
-    things:
-    <ul>
-        <li>Book</li>
-        <li>Camera</li>
-        <li>bed</li>
-    </ul>
+        <b>things:</b>
+        <ul>
+            <li>Book</li>
+            <li>Camera</li>
+            <li>bed</li>
+        </ul>
 
-    Plant:
-    <ul style="list-style-type: square;">
-        <li>Grass</li>
-        <li>Tree</li>
-        <li>Flower</li>
-    
+        <b>Plant:</b>
+        <ul style="list-style-type: square;">
+            <li>Grass</li>
+            <li>Tree</li>
+            <li>Flower</li>
+    </div>
+
 <br>
 
+<div class="box">
     <table border="1">
         <tr>
             <th></th>
@@ -112,15 +129,25 @@
             <td colspan="2"></td>
         </tr>
     </table>
+</div>
 
     <br>
 
-    <img src="basil.webp" width="100px" height="auto" style="position: fixed; bottom: 50px; right: 50px; z-index: 1;">
+    <img src="basil.webp" alt="Basil" width="100px" height="auto" style="position: fixed; bottom: 50px; right: 50px; z-index: 1;">
 
 
     
     <marquee behavior="sliding" direction="right" scrollamount="" bgcolor="">Inovatif</marquee>
     <marquee behavior="scroll" direction="right" scrollamount="" bgcolor="">Disiplin</marquee>
     <marquee behavior="alternate" direction="right" scrollamount="" bgcolor="">Kolaboratif</marquee>
+
+    <div class="link">
+        <br>
+        My Github:
+        <a href="https://github.com/MiloAillo">https://github.com/MiloAillo</a>
+        <br>
+        Lorem Ipsum:
+        <a href="tugas_form.html">Formulir Pendaftaran</a>
+    </div>
 </body>
 </html>

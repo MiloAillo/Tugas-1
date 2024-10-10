@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Faris Kahlil Haidar</title>
+</head>
+<body>
+    <h1>Formulir Pendaftaran</h1>
+    <form action="">
+        Nama <input type="text" placeholder="ketikan nama" name="nama">
+    <br>
+        Kota <input type="text" placeholder="ketikan kota lahir" name="kota lahir" list="lahir">
+        <datalist  id="lahir">
+        <option value="Semarang">Semarang</option>
+        <option value="Jakarta">Jakarta</option>
+        <option value="Demak">Demak</option>
+        <option value="Ungaran">Ungaran</option>
+        <option value="Solo">Solo</option>
+        </datalist>
+    <br>
+        Tanggal Lahir <input type="date" name="ttl" id="">
+    <br>
+        Gender <br>
+        <input type="radio" value="Pria" name="gender"> Pria
+        <input type="radio" value="Wanita" name="gender"> Wanita
+    <br>
+    Agama:
+        <select name="agama" id="agama">
+            <option value="">Islam</option>
+            <option value="">katholik</option>
+            <option value="">kristen</option>
+            <option value="">Hindu</option>
+            <option value="">Buddha</option>
+            <option value="">Konghucu</option>
+        </select>
+        <br>
+        Alamat <textarea name="alamat" cols="15" rows="1" id=""></textarea>
+    <br>
+        Hobby: <br>
+        <input type="checkbox" name="hobi" value="memasak"> memasak <br>
+        <input type="checkbox" name="hobi" value="menyanyi"> menyanyi <br>
+        <input type="checkbox" name="hobi" value="mendengarkan musik"> mendengarkan musik <br>
+    <br>
+    <input type="reset" name="reset" value="clear">
+    <input type="submit" name="submit" value="send">
+    </form>
+
+    <a href="index.html">balik</a>
+</body>
+</html>
